@@ -508,25 +508,25 @@ const SAMPLE = {
   }));
   // Video covers (files in /image). pos = object-position, used to keep the title visible when a square cover is cropped to 16:9.
   const COVERS = {
-    v2:{img:"image/gift-of-righteousness.jpg"},
-    v3:{img:"image/true-and-proper-worship.jpg"},
-    v4:{img:"image/ekisinga.jpg", pos:"50% 75%"},
-    v7:{img:"image/his-word.jpg"},
-    v9:{img:"image/life-real-talk.jpg"},
-    v16:{img:"image/business-monday.jpg", pos:"50% 45%"},
-    v18:{img:"image/tuesday-selfie.jpg", pos:"50% 60%"},
-    v19:{img:"image/ofuge.jpg", pos:"50% 68%"},
-    v20:{img:"image/he-is-born.jpg"},
-    v1:{img:"image/he-is-still-the-same-god.jpg"},
-    v5:{img:"image/word-and-devotion.jpg"},
-    v11:{img:"image/ajey-cjey.jpg"},
-    v12:{img:"image/news-interview.jpg", pos:"50% 20%"},
-    v13:{img:"image/chat-with-minister.jpg"},
-    v15:{img:"image/gospel-to-the-world.jpg"},
-    v21:{img:"image/heart-of-worship.jpg", pos:"50% 45%"},
-    v22:{img:"image/welcome-to-ajey.jpg"},
-    v23:{img:"image/amazing-worship.jpg"},
-    v24:{img:"image/ajey-merchandise.jpg"}
+    v2:{img:"gift-of-righteousness.jpg"},
+    v3:{img:"true-and-proper-worship.jpg"},
+    v4:{img:"ekisinga.jpg", pos:"50% 75%"},
+    v7:{img:"his-word.jpg"},
+    v9:{img:"life-real-talk.jpg"},
+    v16:{img:"business-monday.jpg", pos:"50% 45%"},
+    v18:{img:"tuesday-selfie.jpg", pos:"50% 60%"},
+    v19:{img:"ofuge.jpg", pos:"50% 68%"},
+    v20:{img:"he-is-born.jpg"},
+    v1:{img:"he-is-still-the-same-god.jpg"},
+    v5:{img:"word-and-devotion.jpg"},
+    v11:{img:"ajey-cjey.jpg"},
+    v12:{img:"news-interview.jpg", pos:"50% 20%"},
+    v13:{img:"chat-with-minister.jpg"},
+    v15:{img:"gospel-to-the-world.jpg"},
+    v21:{img:"heart-of-worship.jpg", pos:"50% 45%"},
+    v22:{img:"welcome-to-ajey.jpg"},
+    v23:{img:"amazing-worship.jpg"},
+    v24:{img:"ajey-merchandise.jpg"}
   };
   SAMPLE.videos.forEach(v => { const c = COVERS[v.id]; if (c){ v.thumbnail = c.img; if (c.pos) v.thumbPos = c.pos; } });
   // YouTube links for videos that already exist above
